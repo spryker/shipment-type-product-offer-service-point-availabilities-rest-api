@@ -1,0 +1,13 @@
+resource:
+    name: ProductOfferServicePointAvailabilities
+    shortName: product-offer-service-point-availabilities
+
+    properties:
+        shipmentTypeUuid:
+            type: string
+            writable: true
+            readable: false
+            required: false
+            description: 'The Universally Unique Identifier (UUID) for a shipment type'
+            openapiContext:
+                example: 'd1c20855-3f1d-5b85-a2c5-bba1644a70d0'
