@@ -2,4 +2,4 @@ post:
     shipmentTypeUuid:
         - Optional:
               constraints:
-                  - NotBlank: ~
+                  - NotBlank
